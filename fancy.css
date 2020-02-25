@@ -1,0 +1,73 @@
+body{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#play {
+    border-radius: 50%;
+    border:#34B167;
+    background-color:#34B167;
+}
+
+#play:hover{
+    opacity: 80%;
+}
+
+#play > i {
+    color: white;
+    margin-left: 1.4vh;
+    margin-right: 1.4vh;
+    margin-top: 1.7vh;
+    margin-bottom: 1.7vh;
+}
+
+.buttonListClass {
+    border-radius: 50%;
+    background-color: white;
+    border-color: red;
+}
+
+.buttonListClass > i {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 0.7vh;
+    margin-right: 0.7vh;
+    color: red;
+}
+
+.clicked {
+    border-color: gray;
+}
+
+.clicked>i{
+    color: gray;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 2vh;
+    width: 40vw;
+
+}
+
+header{
+    margin-right: 3vw;
+    text-align: center;
+}
+
+.magic-div {
+    width: 41vw;
+    display: grid;
+    grid-template-columns: 4fr 2fr 0.5fr;
+    margin-left: 1vw;
+}
+
+hr{
+    width: 41vw;
+    margin-left: 0px;
+}
+
+.tracker-name, .time, .magic-div {
+    margin-top: 1vh;
+}
