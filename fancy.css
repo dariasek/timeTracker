@@ -35,11 +35,12 @@ body{
     color: red;
 }
 
-.clicked {
-    border-color: gray;
-}
+/* .clicked>i{
+    color: gray;
+} */
 
-.clicked>i{
+.clicked, .clicked>i{
+    border-color: gray;
     color: gray;
 }
 
